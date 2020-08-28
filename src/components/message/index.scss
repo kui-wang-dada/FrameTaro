@@ -1,0 +1,19 @@
+.message-component {
+  margin-top: 20PX;
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  width: 100%;
+  text-align: center;
+
+  .img {
+    width: 150PX;
+    height: 150PX;
+  }
+
+  .label {
+    color: #666;
+    font-size: 18PX;
+  }
+}

@@ -1,0 +1,73 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0)
+  }
+
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+.refresh-icon-view {
+  width: 100%;
+  height: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  &.loading {
+    transition: height .2s linear;
+  }
+
+  .statusLabel {
+    color: #999
+  }
+
+  .refresh-icon {
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 20rpx;
+
+    &.loading {
+      animation: rotate 1s infinite linear;
+    }
+  }
+}
+
+.refresh-body-view {
+  min-height: 100%;
+}
+
+.load-more-view {
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  .load-more-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .statusLabel {
+      color: #999
+    }
+  }
+
+  .load-more-icon {
+    width: 40rpx;
+    height: 40rpx;
+    margin-right: 20rpx;
+
+
+
+    &.loading {
+      animation: rotate 1s infinite linear;
+    }
+  }
+}

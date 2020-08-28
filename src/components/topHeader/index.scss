@@ -1,0 +1,46 @@
+.titleWrap {
+  display: flex;
+  align-items: center;
+
+  .line {
+    width: 6rpx;
+    height: 40rpx;
+    background: #4169e2;
+    margin-right: 20rpx;
+  }
+
+  .title {
+    font-size: 36rpx;
+    margin: 20rpx 0;
+
+    font-weight: bold;
+
+    text-align: left;
+    color: #333;
+  }
+
+  .label {
+    margin-left: 20rpx;
+    color: #999;
+  }
+}
+
+.pad {
+  padding: 0 32rpx;
+}
+
+.topHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .right {
+    display: flex;
+    align-items: center;
+    margin-right: 32rpx;
+
+    .right-all {
+      margin: 0;
+    }
+  }
+}

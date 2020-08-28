@@ -1,0 +1,14 @@
+.foot-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f1f1f1;
+  padding: 20PX 16PX;
+
+  .foot-text {
+    font-size: 12PX;
+    margin-top: 6PX;
+    color: #666;
+
+  }
+}

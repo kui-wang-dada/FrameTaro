@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('//at.alicdn.com/t/font_1751221_3y6kd4xvq8g.eot?t=1594600734270');
+  /* IE9 */
+  src: url('//at.alicdn.com/t/font_1751221_3y6kd4xvq8g.eot?t=1594600734270#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('//at.alicdn.com/t/font_1751221_3y6kd4xvq8g.woff?t=1594600734270') format('woff'),
+    url('//at.alicdn.com/t/font_1751221_3y6kd4xvq8g.ttf?t=1594600734270') format('truetype'),
+    /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+    url('//at.alicdn.com/t/font_1751221_3y6kd4xvq8g.svg?t=1594600734270#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-about:before {
+  content: "\e6b5";
+}
+
+.icon-shuaxin:before {
+  content: "\e604";
+}
+
+.icon-edit-outline:before {
+  content: "\e603";
+}
+
+.icon-nodata:before {
+  content: "\e633";
+}
+
+.icon-kefu:before {
+  content: "\e61c";
+}
+
+.icon-back:before {
+  content: "\e635";
+}
+
+.icon-menu-home:before {
+  content: "\e600";
+}
+
+.icon-friend:before {
+  content: "\e63e";
+}
+
+.icon-wechat:before {
+  content: "\e70e";
+}
+
+.icon-back-top1:before {
+  content: "\e61b";
+}
+
+
+
+.icon-share:before {
+  content: "\e602";
+}
+
+.icon-phone:before {
+  content: "\e675";
+}
+
+.icon-university:before {
+  content: "\e63d";
+}
+
+.icon-like:before {
+  content: "\e731";
+}
+
+.icon-sort:before {
+  content: "\e6dd";
+}
+
+.icon-question:before {
+  content: "\ea3c";
+}
+
+.icon-62:before {
+  content: "\e6ff";
+}
+
+.icon-up:before {
+  content: "\e615";
+}
+
+.icon-down:before {
+  content: "\e62f";
+}
+
+.icon-fire:before {
+  content: "\e729";
+}
