@@ -1,0 +1,41 @@
+page {
+  height: 100%;
+
+  .scroll-view {
+    background: #f1f1f1;
+  }
+}
+
+.message-wrap {
+  padding: 10PX 16PX;
+  min-height: 500PX;
+  background: #f1f1f1;
+
+  .message-item {
+    padding: 10PX 0;
+
+    .top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10PX;
+
+      .top-left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .top-img {
+          width: 40PX;
+          height: 40PX;
+          border-radius: 20PX;
+
+        }
+      }
+
+    }
+
+
+  }
+}
